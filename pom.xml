@@ -22,4 +22,22 @@
       </plugin>
     </plugins>
   </build>  
+
+  <dependencies>
+    <dependency>
+      <groupId>io.dropwizard</groupId>
+      <artifactId>dropwizard-logging</artifactId>
+      <version>0.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mailapi</artifactId>
+      <version>1.4.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.mail</groupId>
+      <artifactId>smtp</artifactId>
+      <version>1.4.5</version>
+    </dependency>
+  </dependencies> 
 </project>
